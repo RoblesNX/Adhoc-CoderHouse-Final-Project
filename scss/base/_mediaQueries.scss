@@ -1,0 +1,227 @@
+@media screen and (max-width: 1200px) {
+  html {
+    overflow-x: hidden;
+    body {
+      overflow-x: hidden;
+
+      .header {
+        .text-box {
+          h1 {
+            font-size: 36px;
+          }
+          #app {
+            font-size: 36px;
+          }
+
+          p {
+            font-size: 28px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 920px) {
+  html {
+    overflow-x: hidden;
+    body {
+      overflow-x: hidden;
+
+      .header {
+        .text-box {
+          h1 {
+            font-size: 33px;
+          }
+
+          #app {
+            font-size: 33px;
+          }
+
+          p {
+            font-size: 27px;
+          }
+        }
+      }
+    }
+  }
+
+  footer {
+    .content {
+      .link-boxes {
+        flex-wrap: wrap;
+
+        .input-box {
+          margin-top: 10px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 700px) {
+  html {
+    overflow-x: hidden;
+    body {
+      overflow-x: hidden;
+
+      .header {
+        nav {
+          .nav-links {
+            position: absolute;
+            background: #343A40;
+            height: 100vh;
+            width: 200px;
+            top: 0;
+            right: -200px;
+            text-align: left;
+            z-index: 2;
+            transition: 0.5s;
+
+            .fas {
+              display: block;
+              color: white;
+              padding: 15px;
+              font-size: 24px;
+              cursor: pointer;
+              text-align: right;
+            }
+
+            ul {
+              padding: 30px;
+
+              li {
+                display: block;
+              }
+            }
+          }
+
+          .fas {
+            display: block;
+            color: white;
+            margin: 10px;
+            font-size: 22px;
+            cursor: pointer;
+          }
+        }
+
+        .text-box {
+          left: 10%;
+          right: auto;
+          width: 80%;
+
+          h1 {
+            font-size: 31px;
+          }
+          #app {
+            font-size: 31px;
+          }
+
+          p {
+            font-size: 26px;
+          }
+        }
+      }
+
+      .services {
+        .row {
+          flex-direction: column;
+        }
+      }
+      .countries {
+        .row {
+          flex-direction: column;
+        }
+      }
+
+      .testimonials {
+        .row {
+          flex-direction: column;
+        }
+      }
+
+      .testimonials {
+        .row {
+          .testimonial-col {
+            img {
+              margin-left: 0px;
+              margin-right: 15px;
+            }
+          }
+        }
+      }
+
+      footer {
+        position: relative;
+
+        .content {
+          .top {
+            .media-icons {
+              a {
+                height: 35px;
+                width: 35px;
+                font-size: 14px;
+                line-height: 35px;
+              }
+            }
+          }
+
+          .link-boxes {
+            .box {
+              width: calc(100% / 3 - 10px);
+            }
+
+            .input-box {
+              width: 60%;
+            }
+          }
+        }
+      }
+
+      .bottom-details {
+        .bottom_text {
+          span {
+            font-size: 12px;
+          }
+
+          a {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 520px) {
+  footer {
+    .content {
+      .top {
+        flex-direction: column;
+
+        .media-icons {
+          margin-top: 16px;
+        }
+      }
+
+      .link-boxes {
+        .box {
+          width: calc(100% / 2 - 10px);
+        }
+
+        .input-box {
+          width: 100%;
+        }
+      }
+    }
+
+    .bottom-details {
+      .bottom_text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+}
