@@ -26,7 +26,7 @@
   }
 
   #minimal-pattern {
-    background-image: url(../../src/multimedia/images/agencia_digital_pattern_01.png);
+    background: url(../../src/multimedia/images/agencia_digital_pattern_01.png);
     position: absolute;
     top: 0;
     right: 0;
@@ -322,7 +322,7 @@
   .cta {
     margin: 125px auto 125px auto;
     width: 80%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
       url(../../src/multimedia/images/banner2.jpg);
     background-position: center;
     background-size: cover;
