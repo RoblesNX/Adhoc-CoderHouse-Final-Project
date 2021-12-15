@@ -1,16 +1,15 @@
 // Colores ------------------------------>
 
-// Font colors -------------------------->
 
-// Violeta
+$color-black: rgba(0, 0, 0, 1); // Negro
+$color-dark-grey: rgba(23, 23, 23, 1); // Gris oscuro
+$color-light-grey: rgba(76, 76, 76, 1); //  Gris claro
 
-$color-black: #000000; // Negro
-$color-dark-grey: #171717; // Gris oscuro
-$color-light-grey: #4c4c4c; //  Gris claro
-$color-extra-light-grey: #dbdbdb;
+$color-white: rgba(255, 255, 255, 1); // Blanco
 
-$color-light-purple: #e9ddee; // Violeta claro
+$color-light-purple: rgba(233, 221, 238, 1); // Violeta claro
+$color-dark-purple: rgba(128, 0, 92, 1); // Violeta oscuro
+$color-transparent-purple: rgba(153, 64, 129, 0.6); // Violeta 60% opacidad
 
-$color-five: #605bff;
-$color-six: #605bff;
-$color-seven: #605bff;
+$color-watergreen: rgba(7, 144, 145, 1); // Verde agua
+$color-light-watergreen: rgba(2, 161, 161, 1); // Verde agua
