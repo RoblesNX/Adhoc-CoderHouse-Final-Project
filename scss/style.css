@@ -721,6 +721,9 @@ footer .bottom-details .bottom_text a:hover {
   html body {
     overflow-x: hidden;
   }
+  html body .header nav {
+    padding: 4% 6%;
+  }
   html body .header nav .nav-links {
     position: absolute;
     background: #343a40;

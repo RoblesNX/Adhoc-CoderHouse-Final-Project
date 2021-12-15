@@ -118,7 +118,7 @@
     .hero-btn {
       @include texts($general-font, $size-9, $color-white, 400);
       @extend %button;
-      background: $color-watergreen;    
+      background: $color-watergreen;
 
       &:hover {
         background: $color-light-watergreen;
@@ -323,7 +323,7 @@
     .hero-btn {
       @include texts($general-font, $size-9, $color-white, 400);
       @extend %button;
-      background: $color-watergreen;    
+      background: $color-watergreen;
 
       &:hover {
         background: $color-light-watergreen;
