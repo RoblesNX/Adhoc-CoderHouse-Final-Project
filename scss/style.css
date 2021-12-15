@@ -7,181 +7,6 @@
   scroll-behavior: smooth;
 }
 
-@media screen and (max-width: 1200px) {
-  html {
-    overflow-x: hidden;
-  }
-  html body {
-    overflow-x: hidden;
-  }
-  html body .header .text-box h1 {
-    font-size: 36px;
-  }
-  html body .header .text-box #app {
-    font-size: 36px;
-  }
-  html body .header .text-box p {
-    font-size: 28px;
-  }
-}
-
-@media screen and (max-width: 920px) {
-  html {
-    overflow-x: hidden;
-  }
-  html body {
-    overflow-x: hidden;
-  }
-  html body .header .text-box h1 {
-    font-size: 33px;
-  }
-  html body .header .text-box #app {
-    font-size: 33px;
-  }
-  html body .header .text-box p {
-    font-size: 27px;
-  }
-  footer .content .link-boxes {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-  }
-  footer .content .link-boxes .input-box {
-    margin-top: 10px;
-  }
-}
-
-@media screen and (max-width: 700px) {
-  html {
-    overflow-x: hidden;
-  }
-  html body {
-    overflow-x: hidden;
-  }
-  html body .header nav .nav-links {
-    position: absolute;
-    background: #343A40;
-    height: 100vh;
-    width: 200px;
-    top: 0;
-    right: -200px;
-    text-align: left;
-    z-index: 2;
-    -webkit-transition: 0.5s;
-    transition: 0.5s;
-  }
-  html body .header nav .nav-links .fas {
-    display: block;
-    color: white;
-    padding: 15px;
-    font-size: 24px;
-    cursor: pointer;
-    text-align: right;
-  }
-  html body .header nav .nav-links ul {
-    padding: 30px;
-  }
-  html body .header nav .nav-links ul li {
-    display: block;
-  }
-  html body .header nav .fas {
-    display: block;
-    color: white;
-    margin: 10px;
-    font-size: 22px;
-    cursor: pointer;
-  }
-  html body .header .text-box {
-    left: 10%;
-    right: auto;
-    width: 80%;
-  }
-  html body .header .text-box h1 {
-    font-size: 31px;
-  }
-  html body .header .text-box #app {
-    font-size: 31px;
-  }
-  html body .header .text-box p {
-    font-size: 26px;
-  }
-  html body .services .row {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  html body .countries .row {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  html body .testimonials .row {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  html body .testimonials .row .testimonial-col img {
-    margin-left: 0px;
-    margin-right: 15px;
-  }
-  html body footer {
-    position: relative;
-  }
-  html body footer .content .top .media-icons a {
-    height: 35px;
-    width: 35px;
-    font-size: 14px;
-    line-height: 35px;
-  }
-  html body footer .content .link-boxes .box {
-    width: calc(100% / 3 - 10px);
-  }
-  html body footer .content .link-boxes .input-box {
-    width: 60%;
-  }
-  html body .bottom-details .bottom_text span {
-    font-size: 12px;
-  }
-  html body .bottom-details .bottom_text a {
-    font-size: 12px;
-  }
-}
-
-@media (max-width: 520px) {
-  footer .content .top {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  footer .content .top .media-icons {
-    margin-top: 16px;
-  }
-  footer .content .link-boxes .box {
-    width: calc(100% / 2 - 10px);
-  }
-  footer .content .link-boxes .input-box {
-    width: 100%;
-  }
-  footer .bottom-details .bottom_text {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-}
-
 .header {
   min-height: 100vh;
   width: 100%;
@@ -220,7 +45,8 @@
 
 .header .overlay {
   position: absolute;
-  background: rgba(153, 64, 129, 0.6);
+  background: #994081;
+  opacity: 0.6;
   top: 0;
   right: 0;
   bottom: 0;
@@ -267,7 +93,7 @@
   content: "";
   width: 0%;
   height: 2px;
-  background: #80005c;
+  background: #079091;
   display: block;
   margin: auto;
   -webkit-transition: 0.2s;
@@ -812,5 +638,186 @@ footer .bottom-details .bottom_text a {
 footer .bottom-details .bottom_text a:hover {
   opacity: 1;
   text-decoration: underline;
+}
+
+@media screen and (max-width: 1200px) {
+  html {
+    overflow-x: hidden;
+  }
+  html body {
+    overflow-x: hidden;
+  }
+  html body .header .text-box h1 {
+    font-size: 36px;
+  }
+  html body .header .text-box #app {
+    font-size: 36px;
+  }
+  html body .header .text-box p {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  html {
+    overflow-x: hidden;
+  }
+  html body {
+    overflow-x: hidden;
+  }
+  html body .header .text-box h1 {
+    font-size: 33px;
+  }
+  html body .header .text-box #app {
+    font-size: 33px;
+  }
+  html body .header .text-box p {
+    font-size: 27px;
+  }
+  footer .content .link-boxes {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  footer .content .link-boxes .input-box {
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  html {
+    overflow-x: hidden;
+  }
+  html body {
+    overflow-x: hidden;
+  }
+  html body .header nav .nav-links {
+    position: absolute;
+    background: #343a40;
+    height: 100vh;
+    width: 200px;
+    top: 0;
+    right: -200px;
+    text-align: left;
+    z-index: 2;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  html body .header nav .nav-links .fas {
+    display: block;
+    color: white;
+    padding: 15px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: right;
+  }
+  html body .header nav .nav-links ul {
+    padding: 30px;
+  }
+  html body .header nav .nav-links ul li {
+    display: block;
+  }
+  html body .header nav .fas {
+    display: block;
+    color: white;
+    margin: 10px;
+    font-size: 22px;
+    cursor: pointer;
+  }
+  html body .header .text-box {
+    left: 10%;
+    right: auto;
+    width: 80%;
+  }
+  html body .header .text-box h1 {
+    font-size: 31px;
+  }
+  html body .header .text-box #app {
+    font-size: 31px;
+  }
+  html body .header .text-box p {
+    font-size: 26px;
+  }
+  html body .services .row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  html body .countries .row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  html body .testimonials .row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  html body .testimonials .row .testimonial-col img {
+    margin-left: 0px;
+    margin-right: 15px;
+  }
+  html body footer {
+    position: relative;
+  }
+  html body footer .content .top .media-icons a {
+    height: 35px;
+    width: 35px;
+    font-size: 14px;
+    line-height: 35px;
+  }
+  html body footer .content .link-boxes .box {
+    width: calc(100% / 3 - 10px);
+  }
+  html body footer .content .link-boxes .input-box {
+    width: 100%;
+  }
+  html body .bottom-details .bottom_text span {
+    font-size: 12px;
+  }
+  html body .bottom-details .bottom_text a {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  html {
+    overflow-x: hidden;
+  }
+  html body {
+    overflow-x: hidden;
+  }
+  html body footer .content .top {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  html body footer .content .top .media-icons {
+    margin-top: 16px;
+  }
+  html body footer .content .link-boxes .box {
+    width: calc(100% / 2 - 10px);
+  }
+  html body footer .content .link-boxes .input-box {
+    width: 100%;
+  }
+  html body footer .bottom-details .bottom_text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
 }
 /*# sourceMappingURL=style.css.map */

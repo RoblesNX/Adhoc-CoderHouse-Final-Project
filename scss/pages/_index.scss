@@ -1,5 +1,7 @@
 @import "../base/typography";
-@import "../base/mediaQueries";
+@import "../base/colors";
+@import "../base/variables";
+@import "../base/mixins";
 
 .header {
   min-height: 100vh;
@@ -38,7 +40,8 @@
 
   .overlay {
     position: absolute;
-    background: rgba(153, 64, 129, 0.6);
+    background: rgb(153, 64, 129);
+    opacity: 0.6;
     top: 0;
     right: 0;
     bottom: 0;
@@ -74,7 +77,7 @@
           content: "";
           width: 0%;
           height: 2px;
-          background: #80005c;
+          background: #079091;
           display: block;
           margin: auto;
           transition: 0.2s;
