@@ -1,7 +1,5 @@
 @media screen and (max-width: 1200px) {
-
   html {
-    
     overflow-x: hidden;
     body {
       overflow-x: hidden;
@@ -203,6 +201,12 @@
     body {
       overflow-x: hidden;
 
+      .header {
+        nav {
+          padding: 4% 6%;
+        }
+      }
+      
       footer {
         .content {
           .top {

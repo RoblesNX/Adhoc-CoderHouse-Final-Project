@@ -824,6 +824,9 @@ footer .bottom-details .bottom_text a:hover {
   html body {
     overflow-x: hidden;
   }
+  html body .header nav {
+    padding: 4% 6%;
+  }
   html body footer .content .top {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
