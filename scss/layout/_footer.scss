@@ -1,5 +1,5 @@
 footer {
-  background: rgba(0, 0, 0, 0.7);
+  background: $color-2;
   width: 100%;
   bottom: 0;
   left: 0;
@@ -31,8 +31,8 @@ footer {
           border-radius: 50%;
           text-align: center;
           line-height: 40px;
-          color: #fff;
-          font-size: 17px;
+          color: $color-4;
+          font-size: $size-9;
           text-decoration: none;
           transition: all 0.4s ease;
 
@@ -93,9 +93,7 @@ footer {
         width: calc(100% / 5 - 10px);
 
         .link-name {
-          color: #fff;
-          font-size: 18px;
-          font-weight: 400;
+          @include texts($general-font, $size-9, $color-4, 500);  
           margin-bottom: 10px;
           position: relative;
 
@@ -106,7 +104,7 @@ footer {
             bottom: -2px;
             height: 2px;
             width: 35px;
-            background: #fff;
+            background: $color-4;
           }
         }
 
@@ -115,11 +113,9 @@ footer {
           list-style: none;
 
           a {
-            color: #fff;
-            font-size: 14px;
-            font-weight: 400;
+            @include texts($general-font, $size-9, $color-4, 400);          
             text-decoration: none;
-            opacity: 0.8;
+            opacity: 0.6;
             transition: all 0.4s ease;
 
             &:hover {
@@ -134,27 +130,23 @@ footer {
         margin-right: 55px;
 
         input {
+          @include texts($general-font, $size-9, $color-4, 400); 
           height: 40px;
           outline: none;
-          border: 2px solid #afafb6;
-          background: rgba(0, 0, 0, 0.7);
+          border: 2px solid $color-3;
+          background: $color-1;
           border-radius: 4px;
           padding: 0 15px;
-          font-size: 15px;
-          color: #fff;
           margin-top: 5px;
 
           &::placeholder {
-            color: #afafb6;
-            font-size: 16px;
+            @include texts($general-font, $size-9, $color-4, 400); 
           }
 
           &[type="button"] {
-            background: #fff;
-            color: rgba(0, 0, 0, 0.7);
+            @include texts($general-font, $size-9, $color-1, 500); 
+            background: $color-4;
             border: none;
-            font-size: 18px;
-            font-weight: 500;
             margin: 4px 0;
             opacity: 0.8;
             cursor: pointer;
@@ -171,7 +163,7 @@ footer {
 
   .bottom-details {
     width: 100%;
-    background: rgba(0, 0, 0, 0.7);
+    background: $color-1;
 
     .bottom_text {
       max-width: 1250px;
@@ -181,16 +173,12 @@ footer {
       justify-content: space-between;
 
       span {
-        font-size: 14px;
-        font-weight: 300;
-        color: #fff;
+        @include texts($general-font, $size-9, $color-4, 300);
         opacity: 0.8;
         text-decoration: none;
       }
       a {
-        font-size: 14px;
-        font-weight: 300;
-        color: #fff;
+        @include texts($general-font, $size-9, $color-4, 300);
         opacity: 0.8;
         text-decoration: none;
         margin-right: 10px;

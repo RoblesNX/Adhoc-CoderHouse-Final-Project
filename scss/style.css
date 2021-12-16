@@ -433,7 +433,7 @@ html {
 }
 
 footer {
-  background: rgba(0, 0, 0, 0.7);
+  background: #171717;
   width: 100%;
   bottom: 0;
   left: 0;
@@ -475,8 +475,8 @@ footer .content .top .media-icons a {
   border-radius: 50%;
   text-align: center;
   line-height: 40px;
-  color: #fff;
-  font-size: 17px;
+  color: white;
+  font-size: 1em;
   text-decoration: none;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
@@ -542,9 +542,10 @@ footer .content .link-boxes .box {
 }
 
 footer .content .link-boxes .box .link-name {
-  color: #fff;
-  font-size: 18px;
-  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  font-size: 1em;
+  color: white;
+  font-weight: 500;
   margin-bottom: 10px;
   position: relative;
 }
@@ -556,7 +557,7 @@ footer .content .link-boxes .box .link-name:before {
   bottom: -2px;
   height: 2px;
   width: 35px;
-  background: #fff;
+  background: white;
 }
 
 footer .content .link-boxes .box li {
@@ -565,11 +566,12 @@ footer .content .link-boxes .box li {
 }
 
 footer .content .link-boxes .box li a {
-  color: #fff;
-  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  font-size: 1em;
+  color: white;
   font-weight: 400;
   text-decoration: none;
-  opacity: 0.8;
+  opacity: 0.6;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
@@ -584,43 +586,54 @@ footer .content .link-boxes .input-box {
 }
 
 footer .content .link-boxes .input-box input {
+  font-family: "Poppins", sans-serif;
+  font-size: 1em;
+  color: white;
+  font-weight: 400;
   height: 40px;
   outline: none;
-  border: 2px solid #afafb6;
-  background: rgba(0, 0, 0, 0.7);
+  border: 2px solid #4c4c4c;
+  background: black;
   border-radius: 4px;
   padding: 0 15px;
-  font-size: 15px;
-  color: #fff;
   margin-top: 5px;
 }
 
 footer .content .link-boxes .input-box input::-webkit-input-placeholder {
-  color: #afafb6;
-  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-size: 1em;
+  color: white;
+  font-weight: 400;
 }
 
 footer .content .link-boxes .input-box input:-ms-input-placeholder {
-  color: #afafb6;
-  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-size: 1em;
+  color: white;
+  font-weight: 400;
 }
 
 footer .content .link-boxes .input-box input::-ms-input-placeholder {
-  color: #afafb6;
-  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-size: 1em;
+  color: white;
+  font-weight: 400;
 }
 
 footer .content .link-boxes .input-box input::placeholder {
-  color: #afafb6;
-  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-size: 1em;
+  color: white;
+  font-weight: 400;
 }
 
 footer .content .link-boxes .input-box input[type="button"] {
-  background: #fff;
-  color: rgba(0, 0, 0, 0.7);
-  border: none;
-  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  font-size: 1em;
+  color: black;
   font-weight: 500;
+  background: white;
+  border: none;
   margin: 4px 0;
   opacity: 0.8;
   cursor: pointer;
@@ -634,7 +647,7 @@ footer .content .link-boxes .input-box input[type="button"]:hover {
 
 footer .bottom-details {
   width: 100%;
-  background: rgba(0, 0, 0, 0.7);
+  background: black;
 }
 
 footer .bottom-details .bottom_text {
@@ -650,17 +663,19 @@ footer .bottom-details .bottom_text {
 }
 
 footer .bottom-details .bottom_text span {
-  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  font-size: 1em;
+  color: white;
   font-weight: 300;
-  color: #fff;
   opacity: 0.8;
   text-decoration: none;
 }
 
 footer .bottom-details .bottom_text a {
-  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  font-size: 1em;
+  color: white;
   font-weight: 300;
-  color: #fff;
   opacity: 0.8;
   text-decoration: none;
   margin-right: 10px;
