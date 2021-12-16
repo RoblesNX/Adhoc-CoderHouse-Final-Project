@@ -49,7 +49,7 @@ html {
 }
 
 .header #minimal-pattern {
-  background-image: url(../src/multimedia/images/agencia_digital_pattern_01.png);
+  background-image: url(../src/multimedia/images/pattern_01.png);
   position: absolute;
   top: 0;
   right: 0;
@@ -402,8 +402,8 @@ html {
 #main .cta {
   margin: 125px auto 125px auto;
   width: 80%;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(../src/multimedia/images/banner2.jpg);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../src/multimedia/images/banner2.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(../src/multimedia/images/cta.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../src/multimedia/images/cta.jpg);
   background-position: center;
   background-size: cover;
   border-radius: 10px;
@@ -823,6 +823,22 @@ footer .bottom-details .bottom_text a:hover {
   }
   html body {
     overflow-x: hidden;
+  }
+  html body .header {
+    background-image: url(../src/multimedia/images/office_background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: 1;
+  }
+  html body .header #ebl-video {
+    display: none;
   }
   html body .header nav {
     padding: 4% 6%;

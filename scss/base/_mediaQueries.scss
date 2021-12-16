@@ -66,6 +66,7 @@
       overflow-x: hidden;
 
       .header {
+
         nav {
           padding: 4% 6%;
           .nav-links {
@@ -202,11 +203,27 @@
       overflow-x: hidden;
 
       .header {
+        background-image: url(../src/multimedia/images/office_background.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        overflow: hidden;
+        z-index: 1;
+
+        #ebl-video {
+          display: none;
+        }
+        
         nav {
           padding: 4% 6%;
         }
       }
-      
+
       footer {
         .content {
           .top {
