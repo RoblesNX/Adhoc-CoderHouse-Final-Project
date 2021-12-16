@@ -541,7 +541,7 @@ footer .content .link-boxes .box {
   width: calc(100% / 5 - 10px);
 }
 
-footer .content .link-boxes .box .link_name {
+footer .content .link-boxes .box .link-name {
   color: #fff;
   font-size: 18px;
   font-weight: 400;
@@ -549,7 +549,7 @@ footer .content .link-boxes .box .link_name {
   position: relative;
 }
 
-footer .content .link-boxes .box .link_name:before {
+footer .content .link-boxes .box .link-name:before {
   content: "";
   position: absolute;
   left: 0;
