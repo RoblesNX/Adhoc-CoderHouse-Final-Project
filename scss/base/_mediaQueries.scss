@@ -4,7 +4,7 @@
     body {
       overflow-x: hidden;
 
-      .header {
+      #home-header {
         .text-box {
           h1 {
             font-size: 56px;
@@ -28,7 +28,7 @@
     body {
       overflow-x: hidden;
 
-      .header {
+      #home-header {
         .text-box {
           h1 {
             font-size: 33px;
@@ -65,7 +65,7 @@
     body {
       overflow-x: hidden;
 
-      .header {
+      #home-header {
 
         nav {
           padding: 4% 6%;
@@ -202,7 +202,7 @@
     body {
       overflow-x: hidden;
 
-      .header {
+      #home-header {
         background-image: url(../src/multimedia/images/office_background.jpg);
         background-position: center;
         background-repeat: no-repeat;
@@ -215,7 +215,7 @@
         overflow: hidden;
         z-index: 1;
 
-        #ebl-video {
+        #adhoc-video {
           display: none;
         }
         

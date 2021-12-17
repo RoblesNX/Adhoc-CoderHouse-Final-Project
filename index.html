@@ -42,9 +42,9 @@
 
 <body>
 
-    <header class="header">
+    <header id="home-header">
 
-        <div id="ebl-video">
+        <div id="adhoc-video">
             <video poster="https://estudiobl.com/img/ebl_video_transparent_poster.png" autoplay muted loop>
                 <source src="./src/multimedia/videos/office_background.webm" type="video/webm">
                 <source src="./src/multimedia/videos/office_background.mp4" type="video/mp4">
@@ -62,8 +62,19 @@
                 <ul>
                     <li><a href="">HOME</a></li>
                     <li><a href="">ABOUT US</a></li>
-                    <li><a href="">INDUSTRIES</a></li>
-                    <li><a href="">BLOG</a></li>
+                    <li class="dropdown-buttons"><a href="">INDUSTRIES</a>
+                        <div class="dropdown-content">
+                            <a href="">DISTRIBUTION</a>
+                            <a href="">SERVICES</a>
+                        </div>
+                    </li>
+                    <li class="dropdown-buttons"><a href="">SERVICES</a>
+                        <div class="dropdown-content">
+                            <a href="">IMPLEMENTATION</a>
+                            <a href="">TRAINING</a>
+                            <a href="">SUPPORT</a>
+                        </div>
+                    </li>
                     <li><a href="">CONTACT</a></li>
                 </ul>
             </div>
@@ -91,10 +102,10 @@
             <div class="row">
                 <div class="services-col">
                     <h4>Implementation</h3>
-                    <p class="services-text">Lorem ipsum dolor sit, amet consectetur adipisicing
-                        elit. Earum consequuntur similique, sapiente tenetur
-                        consequatur sed debitis temporibus
-                    </p>
+                        <p class="services-text">Lorem ipsum dolor sit, amet consectetur adipisicing
+                            elit. Earum consequuntur similique, sapiente tenetur
+                            consequatur sed debitis temporibus
+                        </p>
                 </div>
 
                 <div class="services-col">
@@ -161,7 +172,8 @@
 
         <section class="testimonials">
             <h3>What our clients says</h3>
-            <p class="testimonial-description">Lorem ipsum dolor sit, amet consectetur adipisicing<p>
+            <p class="testimonial-description">Lorem ipsum dolor sit, amet consectetur adipisicing
+            <p>
 
             <div class="row">
 
@@ -274,7 +286,7 @@
             navLinks.style.right = "0";
             document.body.style.touchAction = "none";
         }
-        
+
         function hideMenu() {
             navLinks.style.right = "-200px";
             document.body.style.touchAction = "auto";

@@ -18,7 +18,8 @@ html {
 @import "./pages/index";
 
 // Layout ------------------------------------->
-@import "./layout/header";
+@import "./layout/home-header";
+@import "./layout/global-header";
 @import "./layout/footer";
 
 // MediaQueries ------------------------------------->
