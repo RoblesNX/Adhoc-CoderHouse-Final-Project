@@ -97,8 +97,24 @@
 
               .dropdown-buttons {
                 .dropdown-content {
-                  display: block;
-                  margin-left: 10px;
+                  list-style: none;
+                  display: inline-block;
+                  margin-left: 5px;
+                  position: relative;
+                  background-color: transparent;
+                  box-shadow: none;
+                  text-align: start;  
+                  margin-top: 0px;
+                  
+                  a {
+                    color: white;
+                    font-size: 12px;
+                    padding: 12px 0px;
+
+                  &:before {
+                    content: "• ";
+                  }
+                  }
                 }
               }
             }
