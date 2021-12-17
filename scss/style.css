@@ -988,6 +988,9 @@ footer .bottom-details .bottom_text a:hover {
   html body #home-header nav .nav-links ul .dropdown-buttons .dropdown-content a:before {
     content: "• ";
   }
+  html body #home-header nav .nav-links ul .dropdown-buttons .dropdown-content a:hover {
+    background-color: transparent;
+  }
   html body #home-header nav .fas {
     display: block;
     color: white;
