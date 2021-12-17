@@ -7,14 +7,33 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
 }
 
 html {
   font-size: 100%;
+  overflow-x: hidden;
 }
 
+html body {
+  overflow-x: hidden;
+}
+
+/*
+
+@media screen and (max-width: 1200px) { 
+        font-size: $size-;
+      }
+  
+    @media screen and (max-width: 920px) {
+      font-size: $size-;
+    }
+  
+    @media screen and (max-width: 700px) {
+      font-size: $size-;
+    }
+*/
 .cta .hero-btn, .location form .hero-btn, #home-header .text-box .hero-btn, #header .text-box .hero-btn {
   text-transform: uppercase;
   text-decoration: none;
@@ -27,6 +46,98 @@ html {
   transition: 0.5s;
 }
 
+@media screen and (max-width: 1200px) {
+  #home-header .text-box h1, #home-header .text-box #app {
+    font-size: 3.5em;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  #home-header .text-box h1, #home-header .text-box #app {
+    font-size: 2.75em;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  #home-header .text-box h1, #home-header .text-box #app {
+    font-size: 2em;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  #home-header .text-box h2 {
+    font-size: 1.75em;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  #home-header .text-box h2 {
+    font-size: 1.5em;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .services h3, .countries h3, .testimonials h3, .cta h3 {
+    font-size: 2.25em;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .services h3, .countries h3, .testimonials h3, .cta h3 {
+    font-size: 2em;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .services h3, .countries h3, .testimonials h3, .cta h3 {
+    font-size: 1.75em;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .services .row .services-col h4 {
+    font-size: 1.5em;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .services .row .services-col h4 {
+    font-size: 1.25em;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .countries .row .countries-col .layer .countries-name {
+    font-size: 1.25em;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .countries .row .countries-col .layer .countries-name {
+    font-size: 1em;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .countries .row .countries-col .layer .countries-name {
+    font-size: 1.75em;
+  }
+}
+
+/*
+
+@media screen and (max-width: 1200px) { 
+        font-size: $size-;
+      }
+  
+    @media screen and (max-width: 920px) {
+      font-size: $size-;
+    }
+  
+    @media screen and (max-width: 700px) {
+      font-size: $size-;
+    }
+*/
 .services {
   width: 80%;
   margin: auto;
@@ -154,7 +265,7 @@ html {
 
 .countries .row .countries-col .layer .countries-name {
   font-family: "Poppins", sans-serif;
-  font-size: 2em;
+  font-size: 1.75em;
   color: white;
   font-weight: 400;
   width: 100%;
@@ -298,6 +409,98 @@ html {
   transition: 0.5s;
 }
 
+@media screen and (max-width: 1200px) {
+  #home-header .text-box h1, #home-header .text-box #app {
+    font-size: 3.5em;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  #home-header .text-box h1, #home-header .text-box #app {
+    font-size: 2.75em;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  #home-header .text-box h1, #home-header .text-box #app {
+    font-size: 2em;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  #home-header .text-box h2 {
+    font-size: 1.75em;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  #home-header .text-box h2 {
+    font-size: 1.5em;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .services h3, .countries h3, .testimonials h3, .cta h3 {
+    font-size: 2.25em;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .services h3, .countries h3, .testimonials h3, .cta h3 {
+    font-size: 2em;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .services h3, .countries h3, .testimonials h3, .cta h3 {
+    font-size: 1.75em;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .services .row .services-col h4 {
+    font-size: 1.5em;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .services .row .services-col h4 {
+    font-size: 1.25em;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .countries .row .countries-col .layer .countries-name {
+    font-size: 1.25em;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .countries .row .countries-col .layer .countries-name {
+    font-size: 1em;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .countries .row .countries-col .layer .countries-name {
+    font-size: 1.75em;
+  }
+}
+
+/*
+
+@media screen and (max-width: 1200px) { 
+        font-size: $size-;
+      }
+  
+    @media screen and (max-width: 920px) {
+      font-size: $size-;
+    }
+  
+    @media screen and (max-width: 700px) {
+      font-size: $size-;
+    }
+*/
 .location {
   width: 80%;
   margin: auto;
@@ -338,6 +541,20 @@ html {
   background: #02a1a1;
 }
 
+/*
+
+@media screen and (max-width: 1200px) { 
+        font-size: $size-;
+      }
+  
+    @media screen and (max-width: 920px) {
+      font-size: $size-;
+    }
+  
+    @media screen and (max-width: 700px) {
+      font-size: $size-;
+    }
+*/
 .cta .hero-btn, .location form .hero-btn, #home-header .text-box .hero-btn, #header .text-box .hero-btn {
   text-transform: uppercase;
   text-decoration: none;
@@ -348,6 +565,84 @@ html {
   cursor: pointer;
   -webkit-transition: 0.5s;
   transition: 0.5s;
+}
+
+@media screen and (max-width: 1200px) {
+  #home-header .text-box h1, #home-header .text-box #app {
+    font-size: 3.5em;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  #home-header .text-box h1, #home-header .text-box #app {
+    font-size: 2.75em;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  #home-header .text-box h1, #home-header .text-box #app {
+    font-size: 2em;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  #home-header .text-box h2 {
+    font-size: 1.75em;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  #home-header .text-box h2 {
+    font-size: 1.5em;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .services h3, .countries h3, .testimonials h3, .cta h3 {
+    font-size: 2.25em;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .services h3, .countries h3, .testimonials h3, .cta h3 {
+    font-size: 2em;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .services h3, .countries h3, .testimonials h3, .cta h3 {
+    font-size: 1.75em;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .services .row .services-col h4 {
+    font-size: 1.5em;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .services .row .services-col h4 {
+    font-size: 1.25em;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .countries .row .countries-col .layer .countries-name {
+    font-size: 1.25em;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .countries .row .countries-col .layer .countries-name {
+    font-size: 1em;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .countries .row .countries-col .layer .countries-name {
+    font-size: 1.75em;
+  }
 }
 
 #home-header {
@@ -527,6 +822,20 @@ html {
   background: #02a1a1;
 }
 
+/*
+
+@media screen and (max-width: 1200px) { 
+        font-size: $size-;
+      }
+  
+    @media screen and (max-width: 920px) {
+      font-size: $size-;
+    }
+  
+    @media screen and (max-width: 700px) {
+      font-size: $size-;
+    }
+*/
 .cta .hero-btn, .location form .hero-btn, #home-header .text-box .hero-btn, #header .text-box .hero-btn {
   text-transform: uppercase;
   text-decoration: none;
@@ -537,6 +846,84 @@ html {
   cursor: pointer;
   -webkit-transition: 0.5s;
   transition: 0.5s;
+}
+
+@media screen and (max-width: 1200px) {
+  #home-header .text-box h1, #home-header .text-box #app {
+    font-size: 3.5em;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  #home-header .text-box h1, #home-header .text-box #app {
+    font-size: 2.75em;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  #home-header .text-box h1, #home-header .text-box #app {
+    font-size: 2em;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  #home-header .text-box h2 {
+    font-size: 1.75em;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  #home-header .text-box h2 {
+    font-size: 1.5em;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .services h3, .countries h3, .testimonials h3, .cta h3 {
+    font-size: 2.25em;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .services h3, .countries h3, .testimonials h3, .cta h3 {
+    font-size: 2em;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .services h3, .countries h3, .testimonials h3, .cta h3 {
+    font-size: 1.75em;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .services .row .services-col h4 {
+    font-size: 1.5em;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .services .row .services-col h4 {
+    font-size: 1.25em;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .countries .row .countries-col .layer .countries-name {
+    font-size: 1.25em;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .countries .row .countries-col .layer .countries-name {
+    font-size: 1em;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .countries .row .countries-col .layer .countries-name {
+    font-size: 1.75em;
+  }
 }
 
 #header {
@@ -951,40 +1338,7 @@ footer .bottom-details .bottom_text a:hover {
   text-decoration: underline;
 }
 
-@media screen and (max-width: 1200px) {
-  html {
-    overflow-x: hidden;
-  }
-  html body {
-    overflow-x: hidden;
-  }
-  html body #home-header .text-box h1 {
-    font-size: 56px;
-  }
-  html body #home-header .text-box #app {
-    font-size: 56px;
-  }
-  html body #home-header .text-box h2 {
-    font-size: 32px;
-  }
-}
-
 @media screen and (max-width: 920px) {
-  html {
-    overflow-x: hidden;
-  }
-  html body {
-    overflow-x: hidden;
-  }
-  html body #home-header .text-box h1 {
-    font-size: 33px;
-  }
-  html body #home-header .text-box #app {
-    font-size: 33px;
-  }
-  html body #home-header .text-box h2 {
-    font-size: 27px;
-  }
   footer .content .link-boxes {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
@@ -1065,15 +1419,6 @@ footer .bottom-details .bottom_text a:hover {
     width: 80%;
     top: 25%;
   }
-  html body #home-header .text-box h1 {
-    font-size: 31px;
-  }
-  html body #home-header .text-box #app {
-    font-size: 31px;
-  }
-  html body #home-header .text-box h2 {
-    font-size: 26px;
-  }
   html body .services .row {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1120,13 +1465,7 @@ footer .bottom-details .bottom_text a:hover {
 }
 
 @media screen and (max-width: 520px) {
-  html {
-    overflow-x: hidden;
-  }
-  html body {
-    overflow-x: hidden;
-  }
-  html body #home-header {
+  #home-header {
     background-image: url(../src/multimedia/images/office_background.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -1139,28 +1478,28 @@ footer .bottom-details .bottom_text a:hover {
     overflow: hidden;
     z-index: 1;
   }
-  html body #home-header #adhoc-video {
+  #home-header #adhoc-video {
     display: none;
   }
-  html body #home-header nav {
+  #home-header nav {
     padding: 4% 6%;
   }
-  html body footer .content .top {
+  footer .content .top {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  html body footer .content .top .media-icons {
+  footer .content .top .media-icons {
     margin-top: 16px;
   }
-  html body footer .content .link-boxes .box {
+  footer .content .link-boxes .box {
     width: calc(100% / 2 - 10px);
   }
-  html body footer .content .link-boxes .input-box {
+  footer .content .link-boxes .input-box {
     width: 100%;
   }
-  html body footer .bottom-details .bottom_text {
+  footer .bottom-details .bottom_text {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;

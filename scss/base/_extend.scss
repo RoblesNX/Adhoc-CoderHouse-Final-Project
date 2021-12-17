@@ -1,10 +1,73 @@
 %button {
-    text-transform: uppercase;
-    text-decoration: none;
-    border-radius: 5px;
-    position: relative;
-    display: inline-block;
-    padding: 12px 30px;
-    cursor: pointer;
-    transition: 0.5s;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 5px;
+  position: relative;
+  display: inline-block;
+  padding: 12px 30px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+%h1 {
+  @media screen and (max-width: 1200px) {
+    font-size: $size-2;
+  }
+
+  @media screen and (max-width: 920px) {
+    font-size: $size-3;
+  }
+
+  @media screen and (max-width: 700px) {
+    font-size: $size-5;
+  }
+}
+
+%h2 {
+  @media screen and (max-width: 920px) {
+    font-size: $size-6;
+  }
+
+  @media screen and (max-width: 700px) {
+    font-size: $size-7;
+  }
+}
+
+%h3 {
+  @media screen and (max-width: 1200px) {
+    font-size: $size-4;
+  }
+
+  @media screen and (max-width: 920px) {
+    font-size: $size-5;
+  }
+
+  @media screen and (max-width: 700px) {
+    font-size: $size-6;
+  }
+}
+
+%h4 {
+  @media screen and (max-width: 920px) {
+    font-size: $size-7;
+  }
+
+  @media screen and (max-width: 700px) {
+    font-size: $size-8;
+  }
+}
+
+
+%countries-name {
+  @media screen and (max-width: 1200px) {
+    font-size: $size-8;
+  }
+
+  @media screen and (max-width: 920px) {
+    font-size: $size-9;
+  }
+
+  @media screen and (max-width: 700px) {
+    font-size: $size-6;
+  }
 }
