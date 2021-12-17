@@ -968,7 +968,7 @@ footer .bottom-details .bottom_text a:hover {
   html body #home-header nav .nav-links ul li {
     display: block;
   }
-  html body #home-header nav .nav-links ul .dropdown-buttons dropdown-content {
+  html body #home-header nav .nav-links ul .dropdown-buttons .dropdown-content {
     display: block;
     margin-left: 10px;
   }
