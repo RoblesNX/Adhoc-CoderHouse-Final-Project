@@ -74,8 +74,6 @@
           padding: 8px 12px;
           position: relative;
 
-          
-
           a {
             color: $color-4;
             text-decoration: none;
@@ -90,7 +88,7 @@
               margin: auto;
               transition: 0.2s;
             }
-  
+
             &:hover:after {
               width: 100%;
             }

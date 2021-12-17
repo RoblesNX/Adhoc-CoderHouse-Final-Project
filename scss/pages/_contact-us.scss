@@ -1,0 +1,47 @@
+@import "../base/colors";
+@import "../base/extend";
+@import "../base/mixins";
+@import "../base/typography";
+@import "../base/variables";
+
+.location {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+  form {
+
+    input {
+        width: 100%;
+        padding: 15px;
+        margin-bottom: 25px;
+        outline: none;
+        border: 1px solid #ccc;
+    }
+
+    textarea {
+        width: 100%;
+        padding: 15px;
+        margin-bottom: 25px;
+        outline: none;
+        border: 1px solid #ccc;
+    }
+
+    .hero-btn {
+        @include texts($general-font, $size-9, $color-4, 400);
+        @extend %button;
+        background: $color-8;
+        border: 1px solid firebrick;
+        width: 100%;
+        padding: 0px 0px;
+        margin: 0;
+    
+    
+        &:hover {
+          background: $color-9;
+        }
+      }
+  }
+}
