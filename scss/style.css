@@ -986,17 +986,26 @@ footer .bottom-details .bottom_text a:hover {
   width: 80%;
   margin: auto;
   text-align: center;
-  padding-top: 50px;
+  padding-top: 20px;
 }
 
 .people-container .people-row {
   margin-top: 5%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+}
+
+@media screen and (max-width: 1200px) {
+  .people-container .people-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+  }
 }
 
 @media screen and (max-width: 920px) {
@@ -1011,8 +1020,8 @@ footer .bottom-details .bottom_text a:hover {
 .people-container .people-row .people-col {
   -ms-flex-preferred-size: 50%;
       flex-basis: 50%;
-  margin-bottom: 5%;
-  padding: 20px 12px;
+  margin-bottom: 2%;
+  padding: 12px 12px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   -webkit-transition: 0.25s;
@@ -1053,6 +1062,88 @@ footer .bottom-details .bottom_text a:hover {
 }
 
 .people-container .people-row .people-col .people-text {
+  font-family: "Poppins", sans-serif;
+  font-size: 1em;
+  color: black;
+  font-weight: 300;
+}
+
+.mision-container {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.mision-container .mision-row {
+  margin-top: 5%;
+}
+
+@media screen and (max-width: 1200px) {
+  .mision-container .mision-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .mision-container .mision-row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.mision-container .mision-row .mision-col {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  margin-bottom: 2%;
+  padding: 12px 12px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+  border-radius: 10px;
+}
+
+.mision-container .mision-row .mision-col img {
+  border-radius: 10px;
+  width: 100%;
+  display: block;
+}
+
+.mision-container .mision-row .mision-col h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 2.75em;
+  color: black;
+  font-weight: 600;
+  text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .mision-container .mision-row .mision-col h3 {
+    font-size: 2.25em;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .mision-container .mision-row .mision-col h3 {
+    font-size: 2em;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .mision-container .mision-row .mision-col h3 {
+    font-size: 1.75em;
+  }
+}
+
+.mision-container .mision-row .mision-col .mision-text {
   font-family: "Poppins", sans-serif;
   font-size: 1em;
   color: black;
