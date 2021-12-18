@@ -1822,4 +1822,325 @@ footer .bottom-details .bottom_text a:hover {
 .cta .hero-btn:hover {
   background: #02a1a1;
 }
+
+.culture-container {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.culture-container .culture-row {
+  margin-top: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media screen and (min-width: 1200px) {
+  .culture-container .culture-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .culture-container .culture-row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.culture-container .culture-row .culture-col {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  margin-bottom: 2%;
+  padding: 12px 12px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+  border-radius: 10px;
+}
+
+.culture-container .culture-row .culture-col img {
+  border-radius: 10px;
+  width: 100%;
+  display: block;
+}
+
+.culture-container .culture-row .culture-col h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 2.75em;
+  color: black;
+  font-weight: 600;
+  text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .culture-container .culture-row .culture-col h3 {
+    font-size: 2.25em;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .culture-container .culture-row .culture-col h3 {
+    font-size: 2em;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .culture-container .culture-row .culture-col h3 {
+    font-size: 1.75em;
+  }
+}
+
+.culture-container .culture-row .culture-col .culture-text {
+  font-family: "Poppins", sans-serif;
+  font-size: 1em;
+  color: black;
+  font-weight: 300;
+  width: 80%;
+  margin: auto;
+}
+
+.work-steps-container {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.work-steps-container h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 2.75em;
+  color: black;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 1200px) {
+  .work-steps-container h3 {
+    font-size: 2.25em;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .work-steps-container h3 {
+    font-size: 2em;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .work-steps-container h3 {
+    font-size: 1.75em;
+  }
+}
+
+.work-steps-container .work-steps-description {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.25em;
+  color: black;
+  font-weight: 300;
+  padding: 10px;
+}
+
+.work-steps-container .work-steps-row {
+  margin-top: 2%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media screen and (max-width: 700px) {
+  .work-steps-container .work-steps-row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.work-steps-container .work-steps-row .work-steps-col-1 {
+  -ms-flex-preferred-size: 10%;
+      flex-basis: 10%;
+  margin-bottom: 2%;
+  padding: 20px 12px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+  border-radius: 10px;
+}
+
+.work-steps-container .work-steps-row .work-steps-col-1 h4 {
+  text-align: center;
+  margin: 10px 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 2em;
+  color: black;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 920px) {
+  .work-steps-container .work-steps-row .work-steps-col-1 h4 {
+    font-size: 1.5em;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .work-steps-container .work-steps-row .work-steps-col-1 h4 {
+    font-size: 1.25em;
+  }
+}
+
+.work-steps-container .work-steps-row .work-steps-col-1 .work-steps-text {
+  font-family: "Poppins", sans-serif;
+  font-size: 1em;
+  color: black;
+  font-weight: 300;
+}
+
+.work-steps-container .work-steps-row .work-steps-col-2 {
+  -ms-flex-preferred-size: 40%;
+      flex-basis: 40%;
+  margin-bottom: 2%;
+  padding: 20px 12px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+  border-radius: 10px;
+}
+
+.work-steps-container .work-steps-row .work-steps-col-2 h4 {
+  text-align: center;
+  margin: 10px 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 2em;
+  color: black;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 920px) {
+  .work-steps-container .work-steps-row .work-steps-col-2 h4 {
+    font-size: 1.5em;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .work-steps-container .work-steps-row .work-steps-col-2 h4 {
+    font-size: 1.25em;
+  }
+}
+
+.work-steps-container .work-steps-row .work-steps-col-2 .work-steps-text {
+  font-family: "Poppins", sans-serif;
+  font-size: 1em;
+  color: black;
+  font-weight: 300;
+}
+
+.work-steps-container .work-steps-row .work-steps-col-3 {
+  -ms-flex-preferred-size: 40%;
+      flex-basis: 40%;
+  margin-bottom: 2%;
+  padding: 20px 12px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+  border-radius: 10px;
+}
+
+.work-steps-container .work-steps-row .work-steps-col-3 img {
+  width: 100%;
+}
+
+.references-container {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.references-container h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 2.75em;
+  color: black;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 1200px) {
+  .references-container h3 {
+    font-size: 2.25em;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .references-container h3 {
+    font-size: 2em;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .references-container h3 {
+    font-size: 1.75em;
+  }
+}
+
+.references-container .references-row {
+  border-radius: 10px;
+  margin-top: 2%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media screen and (max-width: 700px) {
+  .references-container .references-row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.references-container .references-row .references-col {
+  background-color: rgba(231, 231, 231, 0.596);
+  -ms-flex-preferred-size: 15%;
+      flex-basis: 15%;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+  border-radius: 10px;
+  margin-bottom: 2%;
+}
+
+.references-container .references-row .references-col img {
+  width: 100%;
+}
 /*# sourceMappingURL=style.css.map */
