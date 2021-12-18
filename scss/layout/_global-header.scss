@@ -1,10 +1,7 @@
 #global-header {
-  min-height: 40vh;
+  min-height: 50vh;
   width: 100%;
   position: relative;
-  @media screen and (max-width: 700px) {
-    min-height: 50vh;
-  }
 
   #global-minimal-pattern {
     background-image: url(../src/multimedia/images/pattern_01.png);

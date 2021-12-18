@@ -367,15 +367,9 @@ html body {
 }
 
 #global-header {
-  min-height: 40vh;
+  min-height: 50vh;
   width: 100%;
   position: relative;
-}
-
-@media screen and (max-width: 700px) {
-  #global-header {
-    min-height: 50vh;
-  }
 }
 
 #global-header #global-minimal-pattern {
