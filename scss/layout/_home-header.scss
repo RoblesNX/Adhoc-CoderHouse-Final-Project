@@ -8,6 +8,19 @@
   min-height: 100vh;
   width: 100%;
   position: relative;
+  @media screen and (max-width: 520px) {
+    background-image: url(../src/multimedia/images/office_background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: 1;
+  }
 
   #adhoc-video {
     display: block;
@@ -18,6 +31,9 @@
     left: 0;
     overflow: hidden;
     z-index: -1;
+    @media screen and (max-width: 520px) {
+      display: none;
+    }
 
     video {
       position: absolute;
@@ -54,6 +70,9 @@
     padding: 2% 6%;
     justify-content: space-between;
     align-items: center;
+    @media screen and (max-width: 700px) {
+      padding: 4% 6%;
+    }
 
     img {
       width: 150px;
@@ -61,18 +80,46 @@
 
     .fas {
       display: none;
+      @media screen and (max-width: 700px) {
+        display: block;
+        color: white;
+        padding: 15px;
+        font-size: 22px;
+        cursor: pointer;
+        text-align: right;
+      }
     }
 
     .nav-links {
       flex: 1;
       text-align: right;
 
+      @media screen and (max-width: 700px) {
+        position: absolute;
+        background: #343a40;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: -200px;
+        text-align: left;
+        z-index: 2;
+        transition: 0.5s;
+      }
+
       ul {
+        @media screen and (max-width: 700px) {
+          padding: 30px;
+        }
+
         li {
           list-style: none;
           display: inline-block;
           padding: 8px 12px;
           position: relative;
+
+          @media screen and (max-width: 700px) {
+            display: block;
+          }
 
           a {
             color: $color-4;
@@ -115,11 +162,36 @@
             margin-top: 5px;
             z-index: 1;
 
+            @media screen and (max-width: 700px) {
+              list-style: none;
+              display: inline-block;
+              margin-left: 5px;
+              position: relative;
+              background-color: transparent;
+              box-shadow: none;
+              text-align: start;
+              margin-top: 0px;
+            }
+
             a {
               color: black;
               padding: 12px 16px;
               text-decoration: none;
               display: block;
+
+              @media screen and (max-width: 700px) {
+                color: white;
+                font-size: 12px;
+                padding: 12px 0px;
+
+                &:before {
+                  content: "• ";
+                }
+
+                &:hover {
+                  background-color: transparent;
+                }
+              }
 
               &:hover {
                 background-color: $color-5;
@@ -129,13 +201,31 @@
         }
       }
     }
+
+    .fas {
+      @media screen and (max-width: 700px) {
+        display: block;
+        color: white;
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer;
+      }
+    }
+
   }
 
+  
   .text-box {
     width: 100%;
     position: absolute;
     top: 30%;
     text-align: center;
+    @media screen and (max-width: 700px) {
+      left: 10%;
+      right: auto;
+      width: 80%;
+      top: 25%;
+    }
 
     h1 {
       @include texts($general-font, $size-1, $color-4, 400);
