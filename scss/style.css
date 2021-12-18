@@ -1968,6 +1968,7 @@ footer .bottom-details .bottom_text a:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  border-bottom: 1px dashed black;
 }
 
 @media screen and (max-width: 700px) {
@@ -1991,32 +1992,8 @@ footer .bottom-details .bottom_text a:hover {
   border-radius: 10px;
 }
 
-.work-steps-container .work-steps-row .work-steps-col-1 h4 {
-  text-align: center;
-  margin: 10px 0;
-  font-family: "Poppins", sans-serif;
-  font-size: 2em;
-  color: black;
-  font-weight: 600;
-}
-
-@media screen and (max-width: 920px) {
-  .work-steps-container .work-steps-row .work-steps-col-1 h4 {
-    font-size: 1.5em;
-  }
-}
-
-@media screen and (max-width: 700px) {
-  .work-steps-container .work-steps-row .work-steps-col-1 h4 {
-    font-size: 1.25em;
-  }
-}
-
-.work-steps-container .work-steps-row .work-steps-col-1 .work-steps-text {
-  font-family: "Poppins", sans-serif;
-  font-size: 1em;
-  color: black;
-  font-weight: 300;
+.work-steps-container .work-steps-row .work-steps-col-1 img {
+  max-width: 100px;
 }
 
 .work-steps-container .work-steps-row .work-steps-col-2 {
