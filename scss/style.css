@@ -2143,4 +2143,10 @@ footer .bottom-details .bottom_text a:hover {
 .references-container .references-row .references-col img {
   width: 100%;
 }
+
+@media screen and (max-width: 700px) {
+  .references-container .references-row .references-col img {
+    max-width: 50%;
+  }
+}
 /*# sourceMappingURL=style.css.map */
