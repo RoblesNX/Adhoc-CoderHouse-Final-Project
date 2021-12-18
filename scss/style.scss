@@ -17,12 +17,20 @@ html {
 
 // Base --------------------------------------->
 @import "./base/typography";
+@import "./base/colors";
 
-// Pages -------------------------------------->
-@import "./pages/index";
-@import "./pages/contact-us";
+@import "./base/extend";
+@import "./base/mixins";
 
 // Layout ------------------------------------->
+
 @import "./layout/home-header";
 @import "./layout/global-header";
 @import "./layout/footer";
+
+// Pages -------------------------------------->
+@import "./pages/contact-us";
+@import "./pages/index";
+
+
+

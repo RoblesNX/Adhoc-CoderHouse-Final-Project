@@ -23,25 +23,9 @@ $size-10: 0.75em; // 12px
 // H1 64PX > (1200) 56PX > (920) 44PX > (700) 36PX
 // H2 32PX > (1200) 32PX > (920) 28PX > (700) 24PX
 // H3 44PX > (1200) 36 PX > (920) 32PX > (700) 28PX
-
 // H4 32PX > (1200) 32PX > (920) 28PX > (700) 24PX
 
 // P 20PX > (1200) 16 PX > (920) 16PX > (700) 12PX
 // TARJETAS PAISES: 32PX > (1200) 18PX > (920) 18PX > (700) 28PX
 // SUBTITULO: 36PX > (1200) 32PX > (920) 28PX > (700) 24PX
 
-
-/*
-
-@media screen and (max-width: 1200px) { 
-        font-size: $size-;
-      }
-  
-    @media screen and (max-width: 920px) {
-      font-size: $size-;
-    }
-  
-    @media screen and (max-width: 700px) {
-      font-size: $size-;
-    }
-*/
