@@ -1,0 +1,43 @@
+.people-container {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 50px;
+
+  // hacer columna en responsive.
+
+  .people-row {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+
+    @media screen and (max-width: 920px) {
+      flex-direction: column;
+    }
+
+    .people-col {
+      flex-basis: 50%;
+      margin-bottom: 5%;
+      padding: 20px 12px;
+      box-sizing: border-box;
+      transition: 0.25s;
+      border-radius: 10px;
+
+      img {
+        border-radius: 10px;
+        width: 100%;
+        display: block;
+      }
+
+      h3 {
+        @include texts($general-font, $size-3, $color-1, 600);
+        @include h3;
+        text-align: center;
+      }
+
+      .people-text {
+        @include texts($general-font, $size-9, $color-1, 300);
+      }
+    }
+  }
+}
